@@ -1,0 +1,325 @@
+[
+  {
+    "id": 1,
+    "batch": "Batch 01",
+    "pagesRange": "Pages 01–04",
+    "pagesCount": 4,
+    "titleEn": "The Bell, Butterfly and First Clue",
+    "titleGu": "ઘંટડી, પતંગિયું અને પહેલો સંકેત",
+    "pdfFile": "Batch_01_Pages_01-04_The_Bell_Butterfly_and_First_Clue.pdf",
+    "cover": "assets/pdf_previews/batch_01_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_01_page_01.jpg",
+      "assets/comic_pages/batch_01_page_02.jpg",
+      "assets/comic_pages/batch_01_page_03.jpg",
+      "assets/comic_pages/batch_01_page_04.jpg"
+    ],
+    "act": "act1",
+    "actLabel": "Act 1: School & Clues",
+    "tags": [
+      "Greetings",
+      "Bicycle",
+      "Discovery",
+      "Standards 1-2"
+    ],
+    "summary": "The school bell rings, Buckoo spots a curious clue, and the English learning adventure begins with bicycle vocabulary and greetings!"
+  },
+  {
+    "id": 2,
+    "batch": "Batch 02",
+    "pagesRange": "Pages 05–08",
+    "pagesCount": 4,
+    "titleEn": "Wheels, Games and Mischief",
+    "titleGu": "પૈડાં, રમતો અને મસ્તી",
+    "pdfFile": "Batch_02_Pages_05-08_Wheels_Games_and_Mischief.pdf",
+    "cover": "assets/pdf_previews/batch_02_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_02_page_01.jpg",
+      "assets/comic_pages/batch_02_page_02.jpg",
+      "assets/comic_pages/batch_02_page_03.jpg",
+      "assets/comic_pages/batch_02_page_04.jpg"
+    ],
+    "act": "act1",
+    "actLabel": "Act 1: School & Clues",
+    "tags": [
+      "Games",
+      "Playground",
+      "Action Verbs",
+      "Standards 1-3"
+    ],
+    "summary": "Outdoor games and playful mischief! Learning running, hopping, rolling, and playground English phrases."
+  },
+  {
+    "id": 3,
+    "batch": "Batch 03",
+    "pagesRange": "Pages 09–11",
+    "pagesCount": 3,
+    "titleEn": "First, Next, Finally and Action Parade",
+    "titleGu": "પ્રથમ, પછી, આખરે અને ક્રિયા પરેડ",
+    "pdfFile": "Batch_03_Pages_09-11_First_Next_Finally_and_Action_Parade.pdf",
+    "cover": "assets/pdf_previews/batch_03_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_03_page_01.jpg",
+      "assets/comic_pages/batch_03_page_02.jpg",
+      "assets/comic_pages/batch_03_page_03.jpg"
+    ],
+    "act": "act1",
+    "actLabel": "Act 1: School & Clues",
+    "tags": [
+      "Sequence Words",
+      "Parade",
+      "Routine",
+      "Standards 2-4"
+    ],
+    "summary": "Mastering storytelling sequences: First, Next, and Finally! Arkshya leads an exciting action parade."
+  },
+  {
+    "id": 4,
+    "batch": "Batch 04",
+    "pagesRange": "Pages 12–16",
+    "pagesCount": 5,
+    "titleEn": "Discovery Train and CH Clue",
+    "titleGu": "શોધ યાત્રા ટ્રેન અને 'CH' સંકેત",
+    "pdfFile": "Batch_04_Pages_12-16_Discovery_Train_and_CH_Clue.pdf",
+    "cover": "assets/pdf_previews/batch_04_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_04_page_01.jpg",
+      "assets/comic_pages/batch_04_page_02.jpg",
+      "assets/comic_pages/batch_04_page_03.jpg",
+      "assets/comic_pages/batch_04_page_04.jpg",
+      "assets/comic_pages/batch_04_page_05.jpg"
+    ],
+    "act": "act1",
+    "actLabel": "Act 1: School & Clues",
+    "tags": [
+      "Phonics CH",
+      "Train",
+      "Teamwork",
+      "Standards 2-5"
+    ],
+    "summary": "All aboard the Discovery Train! Exploring the 'CH' sound (Chair, Chalk, Cheer) and following the second mystery clue."
+  },
+  {
+    "id": 5,
+    "batch": "Batch 05",
+    "pagesRange": "Pages 17–19",
+    "pagesCount": 3,
+    "titleEn": "Our Town and Its Helpers",
+    "titleGu": "આપણું નગર અને મદદગારો",
+    "pdfFile": "Batch_05_Pages_17-19_Our_Town_and_Its_Helpers.pdf",
+    "cover": "assets/pdf_previews/batch_05_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_05_page_01.jpg",
+      "assets/comic_pages/batch_05_page_02.jpg",
+      "assets/comic_pages/batch_05_page_03.jpg"
+    ],
+    "act": "act2",
+    "actLabel": "Act 2: Town & Nature",
+    "tags": [
+      "Community Helpers",
+      "Occupations",
+      "Respect",
+      "Standards 2-5"
+    ],
+    "summary": "Meeting the wonderful people who keep Masti Nagar safe, healthy, and clean — doctors, teachers, police officers, and sweepers."
+  },
+  {
+    "id": 6,
+    "batch": "Batch 06",
+    "pagesRange": "Pages 20–24",
+    "pagesCount": 5,
+    "titleEn": "Birdsong and Crow Colours",
+    "titleGu": "પંખીઓનો કલરવ અને કાગડાના રંગો",
+    "pdfFile": "Batch_06_Pages_20-24_Birdsong_and_Crow_Colours.pdf",
+    "cover": "assets/pdf_previews/batch_06_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_06_page_01.jpg",
+      "assets/comic_pages/batch_06_page_02.jpg",
+      "assets/comic_pages/batch_06_page_03.jpg",
+      "assets/comic_pages/batch_06_page_04.jpg",
+      "assets/comic_pages/batch_06_page_05.jpg"
+    ],
+    "act": "act2",
+    "actLabel": "Act 2: Town & Nature",
+    "tags": [
+      "Birds",
+      "Colors",
+      "Listening",
+      "Standards 1-4"
+    ],
+    "summary": "Listening to nature's melody! Discovering vibrant plumage colors, cheerful chirping, and an intelligent crow's riddle."
+  },
+  {
+    "id": 7,
+    "batch": "Batch 07",
+    "pagesRange": "Pages 25–28",
+    "pagesCount": 4,
+    "titleEn": "Clever Monkey and Wrapper Mystery",
+    "titleGu": "ચતુર વાંદરો અને કચરાનું રહસ્ય",
+    "pdfFile": "Batch_07_Pages_25-28_Clever_Monkey_and_Wrapper_Mystery.pdf",
+    "cover": "assets/pdf_previews/batch_07_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_07_page_01.jpg",
+      "assets/comic_pages/batch_07_page_02.jpg",
+      "assets/comic_pages/batch_07_page_03.jpg",
+      "assets/comic_pages/batch_07_page_04.jpg"
+    ],
+    "act": "act2",
+    "actLabel": "Act 2: Town & Nature",
+    "tags": [
+      "Cleanliness",
+      "Animals",
+      "Prepositions",
+      "Standards 2-5"
+    ],
+    "summary": "A mischievous monkey and an environmental puzzle! Learning prepositions (in, on, under, behind) while cleaning the park."
+  },
+  {
+    "id": 8,
+    "batch": "Batch 08",
+    "pagesRange": "Pages 29–31",
+    "pagesCount": 3,
+    "titleEn": "The Clue We Could Hear",
+    "titleGu": "સંભળાયો તે રહસ્યમય સંકેત",
+    "pdfFile": "Batch_08_Pages_29-31_The_Clue_We_Could_Hear.pdf",
+    "cover": "assets/pdf_previews/batch_08_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_08_page_01.jpg",
+      "assets/comic_pages/batch_08_page_02.jpg",
+      "assets/comic_pages/batch_08_page_03.jpg"
+    ],
+    "act": "act2",
+    "actLabel": "Act 2: Town & Nature",
+    "tags": [
+      "Sensory Words",
+      "Sounds",
+      "Curiosity",
+      "Standards 2-5"
+    ],
+    "summary": "Whispers in the wind! Identifying rustles, splashes, and echoes with evocative sensory English vocabulary."
+  },
+  {
+    "id": 9,
+    "batch": "Batch 09",
+    "pagesRange": "Pages 32–35",
+    "pagesCount": 4,
+    "titleEn": "Fly Journey and Names We Respect",
+    "titleGu": "ઉડાન યાત્રા અને આદરણીય નામો",
+    "pdfFile": "Batch_09_Pages_32-35_Fly_Journey_and_Names_We_Respect.pdf",
+    "cover": "assets/pdf_previews/batch_09_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_09_page_01.jpg",
+      "assets/comic_pages/batch_09_page_02.jpg",
+      "assets/comic_pages/batch_09_page_03.jpg",
+      "assets/comic_pages/batch_09_page_04.jpg"
+    ],
+    "act": "act2",
+    "actLabel": "Act 2: Town & Nature",
+    "tags": [
+      "Politeness",
+      "Respect",
+      "Directions",
+      "Standards 3-5"
+    ],
+    "summary": "A skyward perspective! Practicing polite speech ('Please', 'Thank you', 'Excuse me') and cultural respect in English."
+  },
+  {
+    "id": 10,
+    "batch": "Batch 10",
+    "pagesRange": "Pages 36–39",
+    "pagesCount": 4,
+    "titleEn": "Clouds, Drops and Water Words",
+    "titleGu": "વાદળો, ટીપાં અને જળના શબ્દો",
+    "pdfFile": "Batch_10_Pages_36-39_Clouds_Drops_and_Water_Words.pdf",
+    "cover": "assets/pdf_previews/batch_10_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_10_page_01.jpg",
+      "assets/comic_pages/batch_10_page_02.jpg",
+      "assets/comic_pages/batch_10_page_03.jpg",
+      "assets/comic_pages/batch_10_page_04.jpg"
+    ],
+    "act": "act3",
+    "actLabel": "Act 3: Discovery & Finale",
+    "tags": [
+      "Weather",
+      "Water Cycle",
+      "Nature",
+      "Standards 2-5"
+    ],
+    "summary": "The sky turns silver! Learning weather vocabulary, raindrops falling pitter-patter, and water conservation."
+  },
+  {
+    "id": 11,
+    "batch": "Batch 11",
+    "pagesRange": "Pages 40–43",
+    "pagesCount": 4,
+    "titleEn": "One Country, Many Helping Hands",
+    "titleGu": "એક દેશ, અનેક મદદગાર હાથ",
+    "pdfFile": "Batch_11_Pages_40-43_One_Country_Many_Helping_Hands.pdf",
+    "cover": "assets/pdf_previews/batch_11_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_11_page_01.jpg",
+      "assets/comic_pages/batch_11_page_02.jpg",
+      "assets/comic_pages/batch_11_page_03.jpg",
+      "assets/comic_pages/batch_11_page_04.jpg"
+    ],
+    "act": "act3",
+    "actLabel": "Act 3: Discovery & Finale",
+    "tags": [
+      "Unity",
+      "Helping Hands",
+      "Values",
+      "Standards 3-5"
+    ],
+    "summary": "Celebrating togetherness and diversity across India! Cooperative problem-solving and heartfelt community values."
+  },
+  {
+    "id": 12,
+    "batch": "Batch 12",
+    "pagesRange": "Pages 44–47",
+    "pagesCount": 4,
+    "titleEn": "The Last Clue and Curtain",
+    "titleGu": "આખરી સંકેત અને રહસ્યનો પર્દો",
+    "pdfFile": "Batch_12_Pages_44-47_The_Last_Clue_and_Curtain.pdf",
+    "cover": "assets/pdf_previews/batch_12_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_12_page_01.jpg",
+      "assets/comic_pages/batch_12_page_02.jpg",
+      "assets/comic_pages/batch_12_page_03.jpg",
+      "assets/comic_pages/batch_12_page_04.jpg"
+    ],
+    "act": "act3",
+    "actLabel": "Act 3: Discovery & Finale",
+    "tags": [
+      "Climax",
+      "Celebration",
+      "Confidence",
+      "Standards 3-5"
+    ],
+    "summary": "The mystery comes together! Piecing every clue from the butterfly to the golden box on stage."
+  },
+  {
+    "id": 13,
+    "batch": "Batch 13",
+    "pagesRange": "Pages 48–50",
+    "pagesCount": 3,
+    "titleEn": "Every Word Opens a World",
+    "titleGu": "દરેક શબ્દ ખોલે છે એક નવી દુનિયા",
+    "pdfFile": "Batch_13_Pages_48-50_Every_Word_Opens_a_World.pdf",
+    "cover": "assets/pdf_previews/batch_13_cover.jpg",
+    "pages": [
+      "assets/comic_pages/batch_13_page_01.jpg",
+      "assets/comic_pages/batch_13_page_02.jpg",
+      "assets/comic_pages/batch_13_page_03.jpg"
+    ],
+    "act": "act3",
+    "actLabel": "Act 3: Discovery & Finale",
+    "tags": [
+      "Grand Finale",
+      "Inspiration",
+      "Speaking English",
+      "Standards 1-5"
+    ],
+    "summary": "Grand Finale! 'Understand in Gujarati, Speak in English' with pride, joy, and boundless curiosity."
+  }
+]

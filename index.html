@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="gu" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Page Title -->
+  <title>Majoh Ma Angreji | Studytime With Arkshya — Gujarati–English Learning</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="ગુજરાતીમાં સમજીએ, અંગ્રેજીમાં બોલીએ! An engaging comic-book and animated story adventure helping Gujarat's primary school children (Standards 1–5) learn and speak English with confidence.">
+  <meta name="keywords" content="MajohMaAngreji, Studytime With Arkshya, Gujarati English Learning, Gujarati Medium English, Standards 1-5, Kids Comics Gujarat, Rajesh Kalra">
+  <meta name="author" content="Rajesh Kalra — Studytime With Arkshya">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://majohmaangreji.com/">
+
+  <!-- Mobile Browser Address Bar & Theme Color -->
+  <meta name="theme-color" content="#FF6E1A">
+  <meta name="msapplication-TileColor" content="#070913">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MajohMaAngreji">
+
+  <!-- Browser Tab Favicons & App Icons -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Open Graph / Social Sharing (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://majohmaangreji.com/">
+  <meta property="og:site_name" content="Majoh Ma Angreji">
+  <meta property="og:title" content="Majoh Ma Angreji | ગુજરાતીમાં સમજીએ, અંગ્રેજીમાં બોલીએ!">
+  <meta property="og:description" content="Understand in Gujarati. Speak in English. Exciting comic books, animated stories & songs helping Gujarat's primary students (Standards 1–5) speak English joyfully.">
+  <meta property="og:image" content="assets/og-share.jpg">
+  <meta property="og:image:secure_url" content="assets/og-share.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Majoh Ma Angreji - Studytime With Arkshya">
+  <meta property="og:locale" content="gu_IN">
+  <meta property="og:locale:alternate" content="en_US">
+
+  <!-- Twitter / X Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Majoh Ma Angreji | Studytime With Arkshya">
+  <meta name="twitter:description" content="ગુજરાતીમાં સમજીએ, અંગ્રેજીમાં બોલીએ! Comics, animated stories & songs for Gujarati-medium children (Standards 1–5).">
+  <meta name="twitter:image" content="assets/og-share.jpg">
+  <meta name="twitter:image:alt" content="Majoh Ma Angreji Comic Learning Project">
+
+  <!-- Google Structured Data (Schema.org JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "EducationalOrganization",
+    "name": "Majoh Ma Angreji",
+    "alternateName": "Studytime With Arkshya",
+    "url": "https://majohmaangreji.com",
+    "logo": "https://majohmaangreji.com/assets/android-chrome-512x512.png",
+    "image": "https://majohmaangreji.com/assets/og-share.jpg",
+    "description": "An enjoyable learning experience helping Gujarati-medium children build stronger English foundations through illustrated comics, animated stories, and simple Gujarati explanations.",
+    "slogan": "ગુજરાતીમાં સમજીએ, અંગ્રેજીમાં બોલીએ!",
+    "founder": {
+      "@type": "Person",
+      "name": "Rajesh Kalra"
+    },
+    "audience": {
+      "@type": "EducationalAudience",
+      "educationalRole": "student",
+      "audienceType": "Gujarati-medium primary students (Standards 1-5)"
+    }
+  }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Noto+Sans+Gujarati:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=4.0">
+</head>
+<body>
+
+  <!-- Ambient Background Lighting -->
+  <div class="ambient-glow glow-saffron" aria-hidden="true"></div>
+  <div class="ambient-glow glow-green" aria-hidden="true"></div>
+  <div class="ambient-glow glow-blue" aria-hidden="true"></div>
+  <div class="starfield" id="starfield" aria-hidden="true"></div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <div class="brand-pill">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span class="brand-name">Studytime With Arkshya</span>
+        <span class="badge-tag">Gujarat</span>
+      </div>
+
+      <div class="header-actions">
+        <a href="#demoLibrary" class="btn-text" id="demoNavBtn" title="Explore 13 Demo Chapters (50 Pages)">
+          <span style="font-size: 1.1rem;" aria-hidden="true">📖</span>
+          <span>13 Demo Batches</span>
+        </a>
+        <button class="btn-text" id="shareHeaderBtn" type="button" title="Share Majoh Ma Angreji">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+          <span>Share</span>
+        </button>
+        <button class="btn-text" id="openAboutBtn" type="button" title="About the Project">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          <span>About</span>
+        </button>
+        <a href="#notifySection" class="btn-primary-sm">
+          <span>Get Updates</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      
+      <!-- Coming Soon Announcement Badge -->
+      <div class="pill-announcement" data-animate="fade-up">
+        <span class="pill-pulse-ring" aria-hidden="true"></span>
+        <span class="sparkle-icon" aria-hidden="true">✨</span>
+        <span class="pill-text-en">COMING SOON</span>
+        <span class="pill-sep" aria-hidden="true">•</span>
+        <span class="pill-text-gu">કમિંગ સૂન</span>
+        <span class="live-beacon" aria-hidden="true" title="Upcoming Launch">
+          <span class="beacon-waves"></span>
+          <span class="beacon-core"></span>
+        </span>
+      </div>
+
+      <!-- Main Visual Showcase (The Provided Image) -->
+      <div class="hero-visual-wrapper" data-animate="zoom-in">
+        <div class="hero-aura-left" aria-hidden="true"></div>
+        <div class="hero-aura-right" aria-hidden="true"></div>
+        <div class="image-frame">
+          <img 
+            src="assets/majoh-ma-angreji-hero.jpg" 
+            alt="Majoh Ma Angreji - Studytime With Arkshya Gujarati English Learning Comic Book"
+            class="hero-banner-img"
+            id="heroImage"
+            loading="eager"
+          />
+        </div>
+        <div class="interactive-hint">
+          <button type="button" class="audio-greeting-btn" id="audioGreetingBtn" title="Play friendly greeting">
+            <span class="speaker-icon">🔊</span>
+            <span class="audio-label">Hello! નમસ્તે!</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Primary Taglines & Description (Clean & Fresh: 1-2 Lines) -->
+      <div class="hero-text-block" data-animate="fade-up">
+        
+        <h1 class="hero-tagline-gu">
+          ગુજરાતીમાં સમજીએ, <span class="highlight-saffron">અંગ્રેજીમાં બોલીએ!</span>
+        </h1>
+        
+        <p class="hero-tagline-en">
+          Understand in Gujarati. Speak in English.
+        </p>
+
+        <!-- 1-2 lines clean description -->
+        <p class="hero-summary">
+          An engaging comic-book world helping Gujarat’s primary school children 
+          <span class="bold-white">(Standards 1–5)</span> discover and speak English through colorful stories, animated characters, and joyful songs.
+        </p>
+      </div>
+
+      <!-- Quick Feature Highlights -->
+      <div class="feature-pills-row" data-animate="fade-up">
+        <div class="feature-pill">
+          <span class="feat-icon">📖</span>
+          <span class="feat-text">Illustrated Comics</span>
+        </div>
+        <div class="feature-pill">
+          <span class="feat-icon">🎬</span>
+          <span class="feat-text">Animated Stories</span>
+        </div>
+        <div class="feature-pill">
+          <span class="feat-icon">🎵</span>
+          <span class="feat-text">Catchy Songs</span>
+        </div>
+        <div class="feature-pill">
+          <span class="feat-icon">🎒</span>
+          <span class="feat-text">Standards 1 to 5</span>
+        </div>
+        <div class="feature-pill highlight-pill">
+          <span class="feat-icon">🎁</span>
+          <span class="feat-text">Free Starter Chapters</span>
+        </div>
+      </div>
+
+      <!-- Demo Comic Chapters & PDF Library Showcase -->
+      <section class="demo-library-section" id="demoLibrary" aria-labelledby="demoHeading">
+        
+        <div class="demo-header-wrapper" data-animate="fade-up">
+          <div class="demo-badge-pill">
+            <span class="sparkle-icon" aria-hidden="true">✨</span>
+            <span>13 EXCLUSIVE DEMO BATCHES • ૫૦ પાનાની રંગબેરંગી કોમિક્સ</span>
+          </div>
+          
+          <h2 class="demo-section-title-gu" id="demoHeading">
+            ગુજરાતી–અંગ્રેજી કોમિક પ્રકરણો ડેમો વાંચો
+          </h2>
+          <p class="demo-section-title-en">
+            Read All 13 Demo Comic Batches (50 Full-Color Pages)
+          </p>
+          <p class="demo-section-subtitle">
+            Explore Gujarat's premier comic-book learning adventure! Read online in our interactive reader, flip through beautifully illustrated pages, or download high-resolution PDFs completely free.
+          </p>
+
+          <!-- Stats Row -->
+          <div class="demo-stats-row">
+            <div class="stat-pill">
+              <span>📚</span>
+              <span><strong class="stat-highlight">13 Batches</strong> Available</span>
+            </div>
+            <div class="stat-pill">
+              <span>📄</span>
+              <span><strong class="stat-highlight">50 Pages</strong> Full Story</span>
+            </div>
+            <div class="stat-pill">
+              <span>🎒</span>
+              <span><strong class="stat-highlight">Standards 1–5</strong> Focus</span>
+            </div>
+            <div class="stat-pill">
+              <span>📱</span>
+              <span>Flip & Read On Any Device</span>
+            </div>
+            <div class="stat-pill">
+              <span>📥</span>
+              <span><strong class="stat-highlight">100% Free</strong> PDF Downloads</span>
+            </div>
+          </div>
+
+          <!-- Quick Start Banner -->
+          <div class="demo-quick-banner">
+            <div class="quick-banner-text">
+              <span class="quick-banner-icon" aria-hidden="true">🚀</span>
+              <div>
+                <strong>Start from the very beginning:</strong>
+                <span>Batch 01 — "The Bell, Butterfly and First Clue" (Masti Nagar School)</span>
+              </div>
+            </div>
+            <button type="button" class="btn-read-hero" id="quickStartBtn">
+              <span>📖 Read Batch 01 Now</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Toolbar: Filters & Live Search -->
+        <div class="demo-toolbar" data-animate="fade-up">
+          <div class="filter-tabs-group" id="filterTabs">
+            <button type="button" class="filter-btn active" data-filter="all">All Batches (1–13)</button>
+            <button type="button" class="filter-btn" data-filter="act1">Act 1: School & Clues (1–4)</button>
+            <button type="button" class="filter-btn" data-filter="act2">Act 2: Town & Nature (5–9)</button>
+            <button type="button" class="filter-btn" data-filter="act3">Act 3: Discovery & Finale (10–13)</button>
+          </div>
+
+          <div class="search-box-wrapper">
+            <span class="search-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </span>
+            <input 
+              type="text" 
+              id="comicSearchInput" 
+              class="search-input" 
+              placeholder="Search chapters, topics, words..." 
+              autocomplete="off"
+              aria-label="Search demo comic chapters"
+            />
+            <button type="button" class="search-clear-btn" id="searchClearBtn" title="Clear search" aria-label="Clear search">&times;</button>
+          </div>
+        </div>
+
+        <!-- Comic Grid Container (Populated dynamically from COMIC_BATCHES) -->
+        <div class="comic-grid" id="comicGrid" aria-live="polite">
+          <!-- Javascript populates 13 cards here with full accessibility -->
+        </div>
+
+      </section>
+
+      <!-- Countdown Timer -->
+      <div class="countdown-card" data-animate="fade-up">
+        <div class="countdown-header">
+          <span class="rocket-icon">🚀</span>
+          <span class="countdown-title">Launch Countdown</span>
+          <span class="countdown-subtitle">First chapter release & animated video</span>
+        </div>
+        <div class="timer-grid" id="timerGrid">
+          <div class="timer-box">
+            <span class="timer-num" id="days">14</span>
+            <span class="timer-label">Days</span>
+          </div>
+          <span class="timer-colon">:</span>
+          <div class="timer-box">
+            <span class="timer-num" id="hours">08</span>
+            <span class="timer-label">Hours</span>
+          </div>
+          <span class="timer-colon">:</span>
+          <div class="timer-box">
+            <span class="timer-num" id="minutes">45</span>
+            <span class="timer-label">Minutes</span>
+          </div>
+          <span class="timer-colon">:</span>
+          <div class="timer-box">
+            <span class="timer-num" id="seconds">30</span>
+            <span class="timer-label">Seconds</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notify / Registration Section -->
+      <div class="notify-card" id="notifySection" data-animate="fade-up">
+        <div class="notify-content">
+          <h2 class="notify-title">
+            Be the First to Try Chapter 1 Free!
+          </h2>
+          <p class="notify-desc">
+            Enter your WhatsApp number or email to receive release updates and free downloadable comic chapters for your child or school.
+          </p>
+
+          <form class="notify-form" id="notifyForm" novalidate>
+            <div class="input-wrapper">
+              <span class="input-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </span>
+              <input 
+                type="text" 
+                id="contactInput" 
+                placeholder="WhatsApp number or Email..." 
+                required 
+                autocomplete="off"
+              />
+            </div>
+            
+            <div class="role-selector" id="roleSelector">
+              <span class="role-label">I am a:</span>
+              <label class="radio-chip active">
+                <input type="radio" name="userRole" value="parent" checked>
+                <span>👨‍👩‍👧 Parent</span>
+              </label>
+              <label class="radio-chip">
+                <input type="radio" name="userRole" value="teacher">
+                <span>👩‍🏫 Teacher / School</span>
+              </label>
+              <label class="radio-chip">
+                <input type="radio" name="userRole" value="learner">
+                <span>✨ Well-Wisher</span>
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submitBtn">
+              <span>Notify Me Free</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+          </form>
+
+          <!-- Success Alert Message -->
+          <div class="success-alert" id="successAlert" style="display: none;">
+            <div class="success-icon">🎉</div>
+            <div class="success-text">
+              <h4>તમારો ખૂબ ખૂબ આભાર! (Thank you!)</h4>
+              <p>You’re on the early VIP release list. We will send you Chapter 1 the moment it goes live!</p>
+            </div>
+          </div>
+
+          <div class="notify-reassurance">
+            <span>🔒 No spam • 100% Free • No forced sharing • Voluntary feedback</span>
+          </div>
+
+          <!-- Browser & Social Share Section -->
+          <div class="share-box">
+            <span class="share-box-title">Spread the Word • Share with Parents & Teachers</span>
+            <div class="share-btn-group">
+              <a href="https://api.whatsapp.com/send?text=%F0%9F%93%9A%20*Majoh%20Ma%20Angreji%20%E2%80%94%20Studytime%20With%20Arkshya*%0A%E0%AA%97%E0%AB%81%E0%AA%9C%E0%AA%B0%E0%AA%BE%E0%AA%A4%E0%AB%80%E0%AA%AE%E0%AA%BE%E0%AA%82%20%E0%AA%B8%E0%AA%AE%E0%AA%9C%E0%AB%80%E0%AA%8F%2C%20%E0%AA%85%E0%AA%82%E0%AA%97%E0%AB%8D%E0%AA%B0%E0%AB%87%E0%AA%9C%E0%AB%80%E0%AA%AE%E0%AA%BE%E0%AA%82%20%E0%AA%AC%E0%AB%8B%E0%AA%B2%E0%AB%80%E0%AA%8F!%0ALearn%20English%20through%20comics%20%26%20stories%20for%20Standards%201%E2%80%935.%0ACheck%20it%20out%3A%20https%3A%2F%2Fmajohmaangreji.com" target="_blank" rel="noopener noreferrer" class="share-btn share-whatsapp" title="Share on WhatsApp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                <span>WhatsApp</span>
+              </a>
+              <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmajohmaangreji.com" target="_blank" rel="noopener noreferrer" class="share-btn share-facebook" title="Share on Facebook">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <span>Facebook</span>
+              </a>
+              <button type="button" class="share-btn share-copy" id="copyShareBtn" title="Copy Website Link">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+                <span id="copyShareLabel">Copy Link</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- About Project Modal (Clean slide-over / popup) -->
+  <div class="modal-backdrop" id="aboutModal" aria-hidden="true">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-brand">
+          <span class="modal-badge">Project Vision</span>
+          <h3>Studytime With Arkshya</h3>
+        </div>
+        <button class="modal-close" id="closeAboutBtn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <div class="vision-quote">
+          <p>“Bring textbook learning into an engaging comic-book world, with Gujarati helping children understand and English giving them opportunities to listen, read and speak.”</p>
+          <span class="quote-author">— Rajesh Kalra, Project Creator</span>
+        </div>
+
+        <div class="vision-points">
+          <div class="point-item">
+            <span class="pt-icon">🎯</span>
+            <div>
+              <strong>Target Audience</strong>
+              <p>Gujarati-medium children in Standards 1–5 (ages up to 10), their parents, and primary school teachers across Gujarat.</p>
+            </div>
+          </div>
+
+          <div class="point-item">
+            <span class="pt-icon">🎨</span>
+            <div>
+              <strong>Comics, Stories & Songs</strong>
+              <p>Arkshya, Buckoo and beloved characters guide children through everyday English dialogues with warmth and humor.</p>
+            </div>
+          </div>
+
+          <div class="point-item">
+            <span class="pt-icon">🆓</span>
+            <div>
+              <strong>Always Free Starter Content</strong>
+              <p>First 2–3 completed chapters and selected songs will be accessible free without compulsory sharing or paywalls.</p>
+            </div>
+          </div>
+
+          <div class="point-item">
+            <span class="pt-icon">📢</span>
+            <div>
+              <strong>Community Channels</strong>
+              <p>Dedicated WhatsApp Channel, YouTube video releases, and parent-teacher collaboration groups.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer-action">
+          <button type="button" class="btn-primary-sm modal-dismiss" id="modalGotItBtn">
+            Great, Keep Me Updated!
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-tagline">
+        <strong>MajohMaAngreji.com</strong> • Studytime With Arkshya
+      </div>
+      <p class="footer-subtext">
+        Created with ❤️ for Gujarat’s young learners to love and speak English with confidence.
+      </p>
+      <div class="footer-meta">
+        <span>Focus: Gujarat Medium • Standards 1–5</span>
+        <span class="sep">•</span>
+        <span>© 2026 Rajesh Kalra. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Full-Screen Interactive Comic Reader Modal -->
+  <div class="reader-modal-backdrop" id="comicReaderModal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="reader-container">
+      
+      <!-- Top Bar -->
+      <div class="reader-top-bar">
+        <div class="reader-batch-info">
+          <span class="reader-badge-pill" id="modalBatchBadge">Batch 01</span>
+          <div class="reader-title-group">
+            <h3 class="reader-title-gu" id="modalTitleGu">ઘંટડી, પતંગિયું અને પહેલો સંકેત</h3>
+            <p class="reader-title-en" id="modalTitleEn">The Bell, Butterfly and First Clue</p>
+          </div>
+        </div>
+
+        <div class="reader-actions-right">
+          <!-- Flip View vs PDF View switcher -->
+          <div class="reader-mode-toggle" title="Switch Reading View">
+            <button type="button" class="reader-mode-btn active" id="modeFlipBtn">📖 Flip View</button>
+            <button type="button" class="reader-mode-btn" id="modePdfBtn">📄 PDF View</button>
+          </div>
+
+          <a href="#" class="reader-control-btn" id="modalDownloadPdfBtn" target="_blank" download title="Download Original High-Res PDF">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span id="modalPdfBtnLabel">PDF</span>
+          </a>
+
+          <button type="button" class="reader-close-btn" id="closeReaderBtn" aria-label="Close comic reader">&times;</button>
+        </div>
+      </div>
+
+      <!-- Main Viewport -->
+      <div class="reader-viewport" id="readerViewport">
+        <!-- Comic Flip View -->
+        <div class="flip-view-wrapper" id="flipViewWrapper">
+          <button type="button" class="reader-nav-arrow reader-nav-prev" id="prevPageBtn" aria-label="Previous Page" title="Previous Page (Left Arrow)">❮</button>
+          
+          <img 
+            src="" 
+            alt="Comic Page" 
+            class="comic-main-page" 
+            id="comicMainImg" 
+            loading="eager"
+          />
+
+          <button type="button" class="reader-nav-arrow reader-nav-next" id="nextPageBtn" aria-label="Next Page" title="Next Page (Right Arrow)">❯</button>
+        </div>
+
+        <!-- PDF Embed View -->
+        <div class="pdf-view-wrapper" id="pdfViewWrapper">
+          <iframe src="" class="pdf-iframe" id="pdfIframe" title="PDF Document Viewer"></iframe>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="reader-bottom-bar">
+        <div class="page-counter-badge" id="modalPageCounter">
+          Page 1 of 4
+        </div>
+
+        <!-- Thumbnail Strip -->
+        <div class="reader-thumbnails-bar" id="modalThumbStrip" aria-label="Jump to page">
+          <!-- Dynamic thumbnails -->
+        </div>
+
+        <!-- Chapter Switcher -->
+        <div class="chapter-switch-group">
+          <button type="button" class="reader-control-btn" id="prevBatchBtn" title="Previous Chapter">⏮ Prev</button>
+          <select class="chapter-jump-select" id="chapterJumpSelect" aria-label="Select chapter">
+            <!-- Dynamic batch options -->
+          </select>
+          <button type="button" class="reader-control-btn" id="nextBatchBtn" title="Next Chapter">Next ⏭</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="comic-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

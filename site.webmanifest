@@ -1,0 +1,21 @@
+{
+  "name": "Majoh Ma Angreji — Studytime With Arkshya",
+  "short_name": "MajohMaAngreji",
+  "description": "ગુજરાતીમાં સમજીએ, અંગ્રેજીમાં બોલીએ! English learning through comics, stories and songs for Standards 1–5.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#070913",
+  "theme_color": "#FF6E1A",
+  "icons": [
+    {
+      "src": "assets/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
