@@ -448,10 +448,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     comicGrid.innerHTML = filtered.map(batch => {
-      const tagsHtml = batch.tags.map(tag => `<span class="comic-tag">#${tag}</span>`).join('');
       return `
         <article class="comic-card" data-batch-id="${batch.id}">
-          <div class="comic-cover-container" onclick="window.openComicReaderById(${batch.id})">
+          <div class="comic-cover-container" onclick="window.openComicReaderById(${batch.id})" title="Click to read ${batch.titleEn}">
             <img 
               src="${batch.cover}" 
               alt="${batch.titleEn} - Majoh Ma Angreji" 
@@ -459,18 +458,11 @@ document.addEventListener('DOMContentLoaded', () => {
               loading="lazy"
             />
             <div class="comic-cover-overlay">
-              <div class="card-top-badges">
-                <span class="badge-batch-num">${batch.batchName}</span>
-                <span class="badge-pages-count">${batch.pagesCount} Pages</span>
-              </div>
+              <span class="badge-fresh-pill">${batch.batchName} • ${batch.pagesCount} Pages</span>
               <div class="cover-hover-cta">
                 <span class="btn-read-bubble">
-                  <span>📖 Read Chapter</span>
+                  <span>📖 Read</span>
                 </span>
-              </div>
-              <div class="card-bottom-info">
-                <span>${batch.pagesRange}</span>
-                <span>${batch.standards}</span>
               </div>
             </div>
           </div>
@@ -478,19 +470,14 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="comic-card-body">
             <h3 class="comic-card-title-gu">${batch.titleGu}</h3>
             <h4 class="comic-card-title-en">${batch.titleEn}</h4>
-            <p class="comic-card-summary">${batch.summary}</p>
-            <div class="comic-card-tags">
-              ${tagsHtml}
-            </div>
 
             <div class="comic-card-actions">
               <button type="button" class="btn-card-read" onclick="window.openComicReaderById(${batch.id})">
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
                 <span>Read Online</span>
               </button>
               <a href="${batch.pdfFile}" class="btn-card-pdf" target="_blank" download title="Download ${batch.batchName} PDF (${batch.pdfSize})">
-                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-                <span>PDF (${batch.pdfSize.replace(' ', '')})</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span>PDF</span>
               </a>
             </div>
           </div>
